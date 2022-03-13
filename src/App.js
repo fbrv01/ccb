@@ -5,7 +5,7 @@ import ColorPalette from './components/ColorPalette'
 
 const App = () => {
   const [fillColors, setFillColors] = useState(Array(11).fill('white'))
-  const [currentColor, setCurrentColor] = useState('blue')
+  const [currentColor, setCurrentColor] = useState('gold')
 
   const onFillColor = (i) => {
     let newFillColors = fillColors.slice(0)
