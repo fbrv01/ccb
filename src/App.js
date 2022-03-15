@@ -7,6 +7,7 @@ const App = () => {
   const [fillColors, setFillColors] = useState(Array(11).fill('white'))
   const [currentColor, setCurrentColor] = useState('gold')
 
+  // setCurrentColor function allows currentColor to update becouse we want to paint with multiple colors
   const onFillColor = (i) => {
     let newFillColors = fillColors.slice(0)
     newFillColors[i] = currentColor
