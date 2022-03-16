@@ -5,7 +5,7 @@ export default class Huhu extends React.Component {
 		return (
 			// this is the breakdown for Owl/Huhu image
 
-			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 793 1122">
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 793 1000">
 			<title>Little Huhu</title>
 			<g id="layer2" transform="translate(114 66)" display="inline">
             <g id="svg_27" transform="matrix(0.849029 0 0 0.849029 65.2874 25.9633)">
@@ -76,7 +76,7 @@ export default class Huhu extends React.Component {
 		C325.1,427,323.5,431.7,321.9,435.8z"/>
 	<path class="st10" onClick={() => this.props.onFill(10)} fill={this.props.fillColors[10]} fill-rule="evenodd" stroke="#000000" stroke-width="8" d="M244.8,247c-4.6,2.6-9.3,5.3-14,8c-3.4,5.7-6.9,11.4-10.4,17.1c-3.3,5.5-6.6,11-9.9,16.4
 		c0.2-7.9-2.6-19.9-7.6-33.1c-2-7.8-5.4-14.9-9.7-23.2l-0.5-0.9c5.7,4.4,10.7,8.1,16.3,10.9C223.3,245.7,235.9,247.4,244.8,247z"/>
-	{/* this are other paths, that create whole image */}
+	{/* // this are other paths, that create whole image */}
 <g id="layer3">
 		<path d="M507.8,224.2c-0.2,1-1.4,1.7-3.7,2.2c-14.2,3.3-67.8-1.9-139.3-13c-32.2,20.8-69.2,44-108.5,67.7c-3,4.7-6,9.4-9.1,14.1
 			c-19.3,29.8-38.3,58.4-56,84.7c2.8,9.3,5.4,18.3,7.9,27.2c2.5,8.8,4.8,17.4,7,25.8c18.8,68.9,40.5,113.1,39.5,122.3
